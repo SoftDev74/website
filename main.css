@@ -1,0 +1,17 @@
+html {
+  height:100%;
+
+}
+head {
+
+}
+body { 
+    height:100%;
+    background-color:#E0F1FF !important;
+}    
+
+.centreDiv {
+    height:125vh;
+    background:#fff;
+    color:#fff;
+}
