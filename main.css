@@ -10,8 +10,27 @@ body {
     background-color:#E0F1FF !important;
 }    
 
-.centreDiv {
+.container {
+    -moz-box-shadow: 0 0 40px 15px #618099;
+    -webkit-box-shadow: 0 0 40px 15px #618099;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.rightDiv {
     height:125vh;
     background:#fff;
-    color:#fff;
+    color:#000;
+    /*padding: 0 !important;*/
+}
+
+.leftDiv {
+    background:#022f77;
+    height: 125vh;
+    margin: 0 !important;
+}
+
+div.leftDiv.col-sm-4 {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
 }
